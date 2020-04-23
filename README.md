@@ -1,3 +1,9 @@
-# Pila
+# Stacks - Pilas en Java
 
-Ejemplo de pila básica en Java de forma manual
+English:
+An basic example about Stacks in Java with methods that will help you understand how a stack works.
+
+Spanish:
+Ejemplo de pila bÃ¡sica en java con metodos que espero te ayuden a entender como una pila funciona.
+
+
