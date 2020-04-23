@@ -1,10 +1,12 @@
+/*
+Class Stack v1 created by Avenger316
+this bassically is the stack class where the methods are created
+the fundamental operantions in this Stack is  push, pop, print it, check if the stack is empty, and its size.
 
+*/
 package Stack;
+ // @author Avenger316
 
-/**
- *
- * @author Avenger316
- */
 public class Stack {
 
    Node tope;
@@ -14,14 +16,17 @@ public class Stack {
         }
         
         public void stackPush(int x){
-            Node n = new Node(x);
+            /*
+                Here a valued is added at the top of the stack and its saved as tope
+            */
+            
+            Node n = new Node(x); 
             
             if(stackCheck()){
                 tope=n;
             }
             
             else{
-                //System.out.println(tope.x);
                n.ant=tope;
                tope=n;
             } 

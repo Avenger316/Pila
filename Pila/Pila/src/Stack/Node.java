@@ -1,16 +1,10 @@
-
+ // @author Avenger316
 package Stack;
 
-/**
- *
- * @author Avenger316
- */
-public class Node {
-    
+public class Node {  
     int x;
     Node ant;
-    
-    
+
     public Node(){
         
     }

@@ -1,10 +1,6 @@
-
+ // @author Avenger316
 package Stack;
 
-/**
- *
- * @author Avenger316
- */
 public class test {
     
      public static Stack p = new Stack();
